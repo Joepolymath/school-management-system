@@ -2,9 +2,8 @@
 
 My name is Daser
 
-<<<<<<< HEAD
 My name is Lucky
-=======
+
 My name is Perpetua
 
 My name is Abel
