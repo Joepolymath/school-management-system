@@ -3050,3 +3050,30 @@ footer .bottom-footer .social-links {
 .schedule-mobile-content .ttb-list > ul li:nth-child(2n) .dd-info {
     background: linear-gradient(180deg, #159957, #155799);
 }
+
+/* login page */
+
+.login-form{
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    position: absolute;
+    top: 25%;
+    left: 40%;
+    background-color: rgba(107, 107, 107, 0.535);
+    padding: 30px;
+    border-radius: 1.5em;
+    color:black
+    
+}
+.form-container {
+    background-color: rgba(227, 227, 243, 0.753);
+    height: 70vh;
+    width: 25%;
+    float: right;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 11%;
+    margin-bottom: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}

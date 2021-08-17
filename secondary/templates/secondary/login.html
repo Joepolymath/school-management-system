@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+    
+
+<div class="login-form  flex.flex-1 item-center">
+    <form action="{% url 'login' %}" method="post">
+
+        {% csrf_token %}
+
+        <div style="color: white;">{{ msg }}</div>
+        <input id="username" name="username" type="text" placeholder="Enter Your User ID" class="textbox form-control"/>
+        <br>
+        <input id="password" name="password" type="password" placeholder="Enter Your Password" class="textbox form-control"/>
+        <br>
+        <input type="submit" class="btn btn-success btn-sm" value="Login"><br>
+    </form>
+
+    <!-- <small class=""> Dont have an account?  <a class="" href=""> Sign Up here</a></small> -->
+</div>
+{% endblock content %}
+
