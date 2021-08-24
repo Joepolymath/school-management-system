@@ -31,3 +31,8 @@ def userLogin(request):
 def userLogout(request):
 	logout(request)
 	return redirect('login')
+
+# contact us view
+
+def contactUs(request):
+	return render(request, 'secondary/contact.html')
