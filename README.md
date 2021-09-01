@@ -9,3 +9,5 @@
 * Run the server
 ```python manage.py runserver```
 This shall run the server on the http://localhost:8000/ url.
+
+

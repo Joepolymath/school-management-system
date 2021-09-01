@@ -1,3 +1,4 @@
+
 from django.shortcuts import redirect, render
 from .models import *
 from .forms import *
@@ -5,9 +6,13 @@ from django.contrib import messages
 from django.contrib.auth import authenticate, login, logout
 from .decorators import *
 from django.contrib.auth.decorators import login_required
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.models import User
+# from django.contrib.auth.decorators import login_required
 
 # Create your views here.
 
+# home view
 def home(request):
     return render(request, 'secondary/index.html')
 
