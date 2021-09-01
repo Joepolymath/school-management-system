@@ -102,7 +102,7 @@ jQuery(window).on("load", function($) {
           method:"POST",
           data: jQuery(form).serialize(),
           beforeSend:function(){
-              jQuery('#contact-form .response').html('<div class="text-info"><img src="assets/img/preloader.gif"> Loading...</div>');
+              jQuery('#contact-form .response').html('<div class="text-info"><img src="{% static \'/images/preloader.gif\' %}"> Loading...</div>');
           },
           success:function(data){
               jQuery('form').trigger("reset");
