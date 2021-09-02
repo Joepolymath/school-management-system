@@ -13,5 +13,12 @@ urlpatterns = [
     path('login/', views.login_page, name='login-page'),
 
     # logout
-    path('logout/', views.logoutUser, name='logout')
+    path('logout/', views.logoutUser, name='logout'),
+
+    # student url
+    path('students/', views.student, name='students'),
+
+    # parents
+    path('parents/', views.parents, name='parents'),
+    path('parents/registration/', views.parentReg, name='parent-reg')
 ]
